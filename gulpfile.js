@@ -26,7 +26,7 @@ gulp.task("scss", function ()
 });
 
 
-gulp.task("watch", function ()
+gulp.task("watch-scss", function ()
 {
-    gulp.watch("./scss/**/*.scss", ["js", "scss"]);
+    gulp.watch("./scss/**/*.scss", ["scss"]);
 });
