@@ -1,0 +1,2 @@
+# bloodtype.coffee
+bloodtype.coffee
