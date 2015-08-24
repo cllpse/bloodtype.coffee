@@ -1,0 +1,22 @@
+{
+  "name": "bloodtype.coffee",
+  "version": "1.0.0",
+  "description": "bloodtype.coffee",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roosteronacid/bloodtype.coffee.git"
+  },
+  "author": "Thomas Angelbo Christensen",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/roosteronacid/bloodtype.coffee/issues"
+  },
+  "homepage": "https://github.com/roosteronacid/bloodtype.coffee#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
