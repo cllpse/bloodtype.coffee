@@ -1,0 +1,41 @@
+@mixin media-state($state)
+{
+    body:before
+	{
+		z-index: 999999999;
+		content: $state;
+		display: block;
+		position: fixed;
+        top: 0;
+        left: 0;
+		background-color: cyan;
+		color: #fff;
+		font-weight: bold;
+		padding: 5px 10px;
+	}
+}
+
+@include media-breakpoint-up(xs)
+{
+    @include media-state("XS");
+}
+
+@include media-breakpoint-up(sm)
+{
+    @include media-state("SM");
+}
+
+@include media-breakpoint-up(md)
+{
+    @include media-state("MD");
+}
+
+@include media-breakpoint-up(lg)
+{
+    @include media-state("LG");
+}
+
+@include media-breakpoint-up(xl)
+{
+    @include media-state("XL");
+}
