@@ -1,12 +1,15 @@
 section.brain
 {
     background-color: #e7576f;
+    background-image: url("./svg/rocket.svg");
 
     svg
     {
+        display: none;
         position: absolute;
         left: 0;
         right: 0;
+        // background-image: url("./svg/brain.svg");
 
         @include media-breakpoint-up(md)
         {
