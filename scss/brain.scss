@@ -1,0 +1,22 @@
+section.brain
+{
+    background-color: #e7576f;
+
+    svg
+    {
+        position: absolute;
+        left: 0;
+        right: 0;
+
+        @include media-breakpoint-up(md)
+        {
+            width: 34em * 0.7;
+        }
+    }
+
+    h1
+    {
+        position: relative;
+        color: #ffffff;
+    }
+}
