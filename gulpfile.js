@@ -76,7 +76,7 @@ gulp.task("scss-compile", function ()
     .src("./scss/index.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(svgCssInject())
-    // .pipe(minifyCss())
+    .pipe(minifyCss())
     .pipe(gulp.dest("./dist"));
 });
 
