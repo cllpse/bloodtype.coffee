@@ -1,0 +1,27 @@
+section.safari
+{
+    background-color: #343434;
+
+    background-image: url("./svg/safari.svg");
+    background-size: 200%;
+    background-position-x: 1em;
+    background-position-y: 0;
+    background-repeat: no-repeat;
+
+    @include media-breakpoint-up(md)
+    {
+        background-position-x: 2em;
+        background-size: 100%;
+    }
+
+    h1
+    {
+        color: #666;
+        text-align: left;
+
+        @include media-breakpoint-down(md)
+        {
+            padding-left: .5em;
+        }
+    }
+}

@@ -37,7 +37,19 @@ section
 
         @include media-breakpoint-up(xs)
         {
-            @include font-scale(3rem);
+            @include font-scale(2.5rem);
+        }
+
+        a
+        {
+            color: inherit;
+            text-decoration: underline;
+
+            &:hover
+            {
+                color: inherit;
+                text-decoration: none;
+            }
         }
     }
 
