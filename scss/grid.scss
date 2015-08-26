@@ -1,9 +1,6 @@
-
-
 section.grid
 {
     background-color: #2b96e3;
-
     background-image: url("./svg/grid.svg");
     background-size: 2em;
     background-repeat: repeat;
@@ -63,14 +60,18 @@ section.grid
 
         kbd
         {
-            @-webkit-keyframes blink {
-                to {
+            @-webkit-keyframes blink
+            {
+                to
+                {
                     visibility: hidden;
                 }
             }
 
-            @keyframes blink {
-                to {
+            @keyframes blink
+            {
+                to
+                {
                     visibility: hidden;
                 }
             }

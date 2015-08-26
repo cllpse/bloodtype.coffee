@@ -39,23 +39,6 @@ section
         {
             @include font-scale(2.5rem);
         }
-
-        a
-        {
-            color: inherit;
-            text-decoration: underline;
-
-            &:hover
-            {
-                color: inherit;
-                text-decoration: none;
-            }
-
-            &:visited
-            {
-                text-decoration: underline;
-            }
-        }
     }
 
     p
@@ -63,6 +46,23 @@ section
         font-weight: 300;
 
         @include font-scale(1.5rem);
+    }
+
+    a
+    {
+        color: inherit;
+        text-decoration: underline;
+
+        &:hover
+        {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        &:visited
+        {
+            text-decoration: underline;
+        }
     }
 
     svg
