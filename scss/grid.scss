@@ -10,7 +10,7 @@ section.grid
 
     &:before
     {
-        content: "FIG. 01 – A";
+        content: "FIG.5 – DEVELOPER";
         display: block;
         position: absolute;
         margin-top: -2em;
@@ -21,7 +21,7 @@ section.grid
         line-height: 1.5em;
         color: #fff;
         background-color: inherit;
-        border: solid 1px #fff;
+        border: solid .05em #fff;
 
         @include media-breakpoint-up(md)
         {
@@ -35,6 +35,8 @@ section.grid
 
         abbr
         {
+            cursor: text;
+
             &:before
             {
                 content: "";
@@ -48,14 +50,37 @@ section.grid
                 background-color: #fff;
             }
 
-            &[title="code"]:before
+            &[title="HACKING"]:before
             {
-                content: "schema 3.A";
+                content: "FIG.5 A – HACKING";
             }
 
-            &[title="more of this"]:before
+            &[title="HTML, CSS, JS"]:before
             {
-                content: "schema 17.X";
+                content: "FIG.5 B – HTML, CSS, JS";
+            }
+        }
+
+        kbd
+        {
+            @-webkit-keyframes blink {
+                to {
+                    visibility: hidden;
+                }
+            }
+
+            @keyframes blink {
+                to {
+                    visibility: hidden;
+                }
+            }
+
+            -webkit-animation: blink 2s steps(2, start) infinite;
+            animation: blink 2s steps(2, start) infinite;
+
+            @include media-breakpoint-up(sm)
+            {
+                padding-left: .2em;
             }
         }
     }
