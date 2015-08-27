@@ -30,6 +30,11 @@ section.grid
     {
         color: #fff;
 
+        @include media-breakpoint-down(sm)
+        {
+            text-align: left;
+        }
+
         abbr
         {
             cursor: text;
